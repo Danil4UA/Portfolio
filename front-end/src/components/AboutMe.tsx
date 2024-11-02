@@ -1,12 +1,8 @@
-import { Container, Typography, Button } from '@mui/material';
-import { Box, Chip } from '@mui/material';
+import { Container, Typography } from '@mui/material';
+// import { Box, Chip } from '@mui/material';
 
 const AboutMe = () => {
-    const skills = [
-                "JavaScript", "TypeScript", "SQL", "React", "Node.js", 
-                "Express", "RESTful APIs", "MySQL", "MongoDB", 
-                "PostgreSQL", "Git", "Responsive Design"
-            ];
+
 
     return (
         <Container maxWidth="lg" sx={{height:"100vh", maxHeight:"1080px", display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 4 }}>
